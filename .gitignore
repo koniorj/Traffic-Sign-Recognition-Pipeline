@@ -4,7 +4,6 @@
 *.tar.gz
 *.csv
 *.pth
-*.onnx
 *.pt
 
 *Kopia_notatnika*
