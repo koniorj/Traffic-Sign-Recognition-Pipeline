@@ -11,6 +11,7 @@ new_model.pth
 img/
 vision.md
 python/png_to_ppm.ipynb
+python/evaluation.ipynb
 
 
 __pycache__/
