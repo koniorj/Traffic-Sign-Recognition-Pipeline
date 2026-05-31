@@ -27,7 +27,7 @@ public:
     : classifier(classifier), preprocessor(preprocessor), postprocessor(postprocessor) {};
 
     std::map<std::string, int> prepareLabelData(const std::string& csv_path);
-    void runBatch(const std::string& image_dir, std::map<std::string, int> label_data);
+    void runBatch(const std::string& image_dir, const std::map<std::string, int>& label_data);
     void printSummary() const;
     void printBenchmark() const;
 };
