@@ -6,6 +6,8 @@
 *.pth
 *.pt
 *Kopia_notatnika*
+*new_model.pth*
+!ground_truth.csv
 
 
 __pycache__/
