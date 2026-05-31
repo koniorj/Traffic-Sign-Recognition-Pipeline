@@ -1,4 +1,4 @@
 *.h linguist-language=cpp
 *.cpp linguist-language=cpp
 
-*.ipynb linguist-documentation
+# *.ipynb linguist-documentation
