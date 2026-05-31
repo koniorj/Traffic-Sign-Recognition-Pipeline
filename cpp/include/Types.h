@@ -1,10 +1,3 @@
-//
-// Created by konio on 5/29/2026.
-//
-
-#ifndef TRAFFICSIGNRECOGNITION_TYPES_H
-#define TRAFFICSIGNRECOGNITION_TYPES_H
-
 #ifndef TYPES_H
 #define TYPES_H
 
@@ -17,5 +10,3 @@ struct ProcessedData {
 };
 
 #endif
-
-#endif //TRAFFICSIGNRECOGNITION_TYPES_H

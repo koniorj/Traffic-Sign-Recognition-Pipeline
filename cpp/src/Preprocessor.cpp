@@ -35,8 +35,8 @@ ImageData Preprocessor::resize(const ImageData& input, int newWidth, int newHeig
 
             // fractional offsets - always in [0, 1), weights always sum to 1
             // even when x2==x1 or y2==y1 (edge pixels)
-            float dx = oldX - static_cast<float>(x1);
-            float dy = oldY - static_cast<float>(y1);
+            float dx = srcX - static_cast<float>(x1);
+            float dy = srcY - static_cast<float>(y1);
 
             for (int c=0; c < newImage.colors; ++c)
             {

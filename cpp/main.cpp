@@ -22,7 +22,6 @@ void runAnImage(std::string model_path, std::string image_path)
             std::cout << "Image resized and normalized \n";
             std::vector<float> models_answers = classifier.classify(processedData);
             Postprocessor postprocessor;
-            std::vector<float> softm = postprocessor.softmax(models_answers, 43);
             int class_prediction = postprocessor.topPrediction(models_answers);
             string class_label = postprocessor.getLabelsName(class_prediction);
             std::vector<float> probabilities = postprocessor.softmax(models_answers, 43);

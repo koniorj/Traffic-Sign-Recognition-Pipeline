@@ -25,14 +25,14 @@ std::map<std::string, int> BatchRunner::prepareLabelData(const std::string& csv_
     return labels;
 }
 
-void BatchRunner::runBatch(const std::string& image_dir, std::map<std::string, int> label_data)
+void BatchRunner::runBatch(const std::string& image_dir, const std::map<std::string, int>& label_data)
 {
     for (const auto& entry : fs::directory_iterator(image_dir)) {
         // if (entry.path().extension() != ".ppm") continue;
 
         std::string filename = entry.path().filename().string();
         std::string imagePath = entry.path().string();
-        int correct_class = label_data[filename];
+        int correct_class = label_data.at(filename);
 
         auto start = std::chrono::high_resolution_clock::now();
 

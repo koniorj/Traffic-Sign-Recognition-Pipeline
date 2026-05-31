@@ -46,7 +46,7 @@ vector<std::pair<float, int>> Postprocessor::topThreePredictions(const std::vect
 
 std::vector<float> Postprocessor::softmax(const std::vector<float>& models_answers, const int64_t dimensions=43)
 {
-    std::vector<float> output(dimensions);;
+    std::vector<float> output(dimensions);
     float max_input = *std::max_element(models_answers.begin(), models_answers.end());
 
     float tmpsum = 0.0f;
