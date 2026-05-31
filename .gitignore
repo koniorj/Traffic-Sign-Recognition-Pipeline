@@ -6,10 +6,10 @@
 *.pth
 *.pt
 *Kopia_notatnika*
-*new_model.pth*
-*/libs*
-*vision*
+new_model.pth
 !ground_truth.csv
+img/
+vision.md
 
 
 __pycache__/

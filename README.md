@@ -11,11 +11,49 @@ The model is trained on the **GTSRB dataset** (German Traffic Sign Recognition B
 
 #### Results in Python
 
-![PYTHON_RESULTS](img/image.png)
+<!-- ![PYTHON_RESULTS](img/image.png) -->
+
+```
+--------------------------------------
+MODEL SUMMARY
+--------------------------------------
+1000 images processed
+Accuracy: 91.10% (911/1000)
+Average time: 61.24 ms/image
+Total time: 61237.77 ms
+--------------------------------------
+BENCHMARK RESULTS
+--------------------------------------
+1000 images processed
+Average time: 61.24 ms/image
+Min time: 20.71 ms/image
+Max time: 191.71 ms/image
+Total time: 61237.77 ms
+FPS: 16.33 FPS
+```
 
 #### Results in C++
 
-![CPP_RESULTS](img/image-1.png)
+<!-- ![CPP_RESULTS](img/image-1.png) -->
+
+```
+--------------------------------------
+MODEL SUMMARY
+--------------------------------------
+1000 images processed
+Accuracy: 89.30% (893/1000)
+Average time: 15.55 ms/image
+Total time: 15548.57 ms
+--------------------------------------
+BENCHMARK RESULTS
+--------------------------------------
+1000 images processed
+Average time: 15.55 ms/image
+Min time: 11.36 ms/image
+Max time: 118.69 ms/image
+Total time: 15548.57 ms
+FPS: 64.31 FPS
+```
 
 ---
 
