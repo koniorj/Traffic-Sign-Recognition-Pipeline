@@ -7,6 +7,7 @@
 *.pt
 *Kopia_notatnika*
 *new_model.pth*
+*/libs*
 !ground_truth.csv
 
 
@@ -31,3 +32,4 @@ CMakeUserPresets.json
 .idea/
 *.cmake
 Makefile
+/libs/
