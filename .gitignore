@@ -10,6 +10,7 @@ new_model.pth
 !ground_truth.csv
 img/
 vision.md
+png_to_ppm.ipynb
 
 
 __pycache__/
