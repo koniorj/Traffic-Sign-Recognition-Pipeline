@@ -12,6 +12,7 @@ img/
 vision.md
 python/png_to_ppm.ipynb
 python/evaluation.ipynb
+python/ppm_test/
 
 
 __pycache__/
